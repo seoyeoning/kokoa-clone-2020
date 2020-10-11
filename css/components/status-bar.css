@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
 }
 .status-bar__column {
   width: 33%;
@@ -17,4 +21,5 @@
 }
 .fa-battery-half {
   margin: 0px 3px;
+  height: 1000vh;
 }
