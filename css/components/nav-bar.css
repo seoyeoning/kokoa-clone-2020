@@ -2,10 +2,10 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: khaki;
+  background-color: rgb(155, 140, 240);
   padding: 20px 50px;
   box-sizing: border-box;
-  border-top: 2px solid darkgoldenrod;
+  border-top: 2px solid rgb(5, 1, 255);
 }
 
 .nav__list {
@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 .nav__link {
-  color: red;
+  color: rgb(255, 217, 0);
   position: relative;
 }
 .nav__notification {

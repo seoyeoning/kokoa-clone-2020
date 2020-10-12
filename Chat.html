@@ -3,10 +3,10 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Chats-Kokoa clone</title>
+      <title>Chat-Kokoa clone</title>
       <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body id="chat-screen">
       <div id="status-bar">
             <div class="status-bar__column">
                   <i class="fas fa-signal"></i>
@@ -23,57 +23,59 @@
             </div>
       </div>
 
-      <header class="screen-header">
-            <h1 class="screen-header__title">Chats</h1>
-            <div class="screen-header__icons">
-                  <span><i class="fas fa-search fa-lg"></i></span>
-                  <span><i class="far fa-comment-dots fa-lg"></i></span>
-                  <span><i class="fas fa-music fa-lg"></i></span>
-                  <span><i class="fas fa-cog fa-lg"></i></span>
-                 
+      <header class="alt-header">
+            <div class="alt-header__column">
+                  <a href="Chats.html">
+                  <spam><i class="fas fa-angle-left fa-2x"></i></span> </a>
+            </div>
+            <div class="alt-header__column">
+                  <h1 class="alt-header__title">Hogwarts</h1>
+            </div>
+            <div class="alt-header__column">
+                 <span><i class="fas fa-search fa-lg"></i></span> 
+                  <span><i class="fas fa-bars fa-lg"></i></span> 
+            </div>
       </header>
+      
 
-      <main class="friends__screen">
-            <div class="user-component">
-                  <div class="user-component__column">
-                        <img class="user-component__avatar user-component__avatar" src="img/one.jpg"/>
-                        <div class="user-component__text">
-                              <h4 class="user-component__title">아무나</h4>
-                              <h6 class="user-component__subtitle">sdkfjkslnfdk</h6>
-                        </div>
-                  </div>
-                  <div class="user-component__column">
-                        <span class=user-component__column__time">5:29</span>
-                        <span class="badge ">2</span>
+     <main class="main-screen main-chat">
+           <div class="chat__timestamp">
+                 Tuesday, February 18,2020
+           </div>
+            
+           <div class="message-row">
+              <img src="img/Hogwarts-Logo.jpg"/>
+              <div class="message-row__content">
+                    <span class="message__author">Hogwarts</span>
+                    <div class="message__info">
+                       <div class="message__bubble">HELLO! Mr.Potter Congratulations on your admission to Hogwarts</div>
+                       <span class="message__time">9:00</span>
+                    </div>
+              </div>
+           </div>
+
+           <div class="message-row--own message-row">
+            
+            <div class="message-row__content">
+                  
+                  <div class="message__info">
+                     <div class="message__bubble">Thank You!</div>
+                     <span class="message__time">9:10</span>
                   </div>
             </div>
-
+         </div>
       </main>
-
-      <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__btn">
-                <a class="nav__link" href="friends.html"
-                  ><i class="far fa-user fa-2x"></i></a>
-              </li>
-              <li class="nav__btn">
-                <a class="nav__link" href="Chat.html">
-                  <span class="nav__notification badge">1</span>
-                  <i class="fas fa-comment fa-2x"></i>
-                </a>
-              </li>
-              <li class="nav__btn">
-                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
-              </li>
-              <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                      <div class="nav__notification__second badge__red"></div>
-                      <i class="fas fa-ellipsis-h fa-2x"></i
-                ></a>
-              </li>
-            </ul>
-          </nav>
-
+      
+      <form class="reply">
+            <div class="reply__column">
+                  <i class="far fa-plus-square fa-2x"></i>
+            </div>
+            <div class="reply__column">
+                  <input type="text" placeholder="Write a message..." />
+                  <i class="far fa-laugh-squint"></i>
+                  <button><i class="fas fa-arrow-up"></i></button>
+      </form>
+     
       <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

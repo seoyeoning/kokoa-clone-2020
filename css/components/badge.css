@@ -10,7 +10,7 @@
 }
 
 .badge__red {
-  background-color: rgb(253, 38, 0);
+  background-color: rgb(255, 0, 0);
   width: 7px;
   height: 7px;
   display: flex;
@@ -20,5 +20,10 @@
 .screen-header__icons__red {
   position: relative;
   right: -80px;
+  top: -24px;
+}
+.screen-header__icons__red-more {
+  position: relative;
+  right: -130px;
   top: -24px;
 }
