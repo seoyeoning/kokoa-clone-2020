@@ -22,10 +22,6 @@
   left: 10px;
 }
 .nav__notification__second {
-  background-color: rgb(253, 38, 0);
-  width: 7px;
-  height: 7px;
-  display: flex;
   position: absolute;
   border-radius: 50%;
   left: 30px;

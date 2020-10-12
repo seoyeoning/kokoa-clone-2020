@@ -8,3 +8,17 @@
   background-color: lightcoral;
   color: white;
 }
+
+.badge__red {
+  background-color: rgb(253, 38, 0);
+  width: 7px;
+  height: 7px;
+  display: flex;
+  border-radius: 50%;
+}
+
+.screen-header__icons__red {
+  position: relative;
+  right: -80px;
+  top: -24px;
+}
