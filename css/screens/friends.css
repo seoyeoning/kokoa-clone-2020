@@ -1,0 +1,14 @@
+.friends__screen {
+  padding: 0px 25px;
+}
+.friends__screen__channel {
+  margin-top: 25px;
+  border-top: 2px solid darkmagenta;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+.friends__screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  color: aquamarine;
+}
